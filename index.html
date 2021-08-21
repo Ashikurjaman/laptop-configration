@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac - Book - pro</title>
+    <!-- style sheet link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap link  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container">
+        <main class="row">
+            <section class="col-6">
+                <div class="mt-5">
+                    <img class="img-fluid" src="images/mac.png" alt="">
+                </div>
+            </section>
+            <section class="col-6">
+                <article class="m-5">
+                    <h1>Customize your 16‑inch MacBook Pro </h1>
+                    <p>2.6GHz 6‑core 9th‑generation Intel Core i7 processor, Turbo Boost up to 4.5GHz
+                        16GB 2666MHz DDR4 memory
+                        AMD Radeon Pro 5300M with 4GB of GDDR6 memory
+                        512GB SSD storage
+                        16-inch Retina display with True Tone
+                        Four Thunderbolt 3 ports
+                        Touch Bar and Touch ID
+                        Backlit Magic Keyboard - US English</p>
+                </article>
+
+                <!-- Memory  -->
+
+                <div class="m-5">
+                    <h6 class="fs-4">Memory</h6>
+                    <label id="8gb-charge" class="btn btn-outline-primary" for="btncheck1">8GB unified memory</label>
+                    <label id="16gb-charge" class="btn btn-outline-primary" for="btncheck1">16GB unified memory</label>
+                </div>
+
+                <!-- Storage  -->
+
+                    <div class="m-5">
+                        <h6 class="fs-4">Storage</h6>
+                        <label id="256ssd-charge" class="btn btn-outline-primary" for="btncheck1">256 SSD storage</label>
+                        <label id="512ssd-charge" class="btn btn-outline-primary" for="btncheck1">512 SSD storage</label>
+                        <label id="1tbssd-charge" class="btn btn-outline-primary" for="btncheck1">1TB SSD storage</label>
+                    </div>
+
+                    <!-- Devlivery  -->
+
+                    <div class="m-5">
+                        <h6 class="fs-4">Choose your delivery option</h6>
+                        <label id="free-charge" class="btn btn-outline-primary" for="btncheck1">Friday,Aug 25 FREE Prime Delivery</label>
+                        <label id="premium-charge" class="btn btn-outline-primary" for="btncheck1">Friday,Aug 21  Delivery charge $20</label>
+                    </div>
+
+                    <!-- Price Table  -->
+
+                    <table class="table fw-bold">
+                        
+                        <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>Best Price</td>
+                                <td ><span id="best-price">1299</span>$</td>
+                                
+                              </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>Extra Memory Cost</td>
+                            <td id="memory-cost">0</td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>Extra Storage Cost</td>
+                            <td id="storage-cost">0</td>
+                            
+                          </tr>
+                          
+                          <tr class="">
+                            <th scope="row"></th>
+                            <td>Delivery charge</td>
+                            <td id="delivery-charge">0</td>
+                            
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Total Price</th>
+                              <th  scope="col"><span id="total-price">1299</span>$</th>
+                              
+                            </tr>
+                          </tfoot>
+                      </table>
+                      <!-- promo code  -->
+                     <div class="m-5">
+                          
+                          <h6>Add Promo code</h6>
+                      <div class="input-group mb-5 ">
+                        
+                        <input id="promo-code" type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <button id="apply-promo" class="btn btn-outline-secondary" type="button" id="button-addon1">Apply</button>
+                      </div>
+
+                    </div>
+                      
+                
+            </section>
+        </main>
+
+
+        
+    </header>
+
+    <footer class="text-center ">
+        <h2 class="fs-1">Total Price: <span id="last-price">1299</span>$</h2>
+    </footer>
+
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
